@@ -36,18 +36,6 @@ def log(path='./logs', test=False):
 
 logger = log()
 
-
-def handle_exception(exc_type, exc_value, exc_traceback):
-    # ignore traceback to auto close app. except keyboard interrupt
-    if issubclass(exc_type, KeyboardInterrupt):
-        sys.__excepthook__(exc_type, exc_value, exc_traceback)
-        return
-
-    logger.critical("Uncaught exception", exc_info=(exc_type, exc_value, exc_traceback))
-
-
-sys.excepthook = handle_exception
-
 app = QApplication(sys.argv)
 screen = app.primaryScreen()
 size = screen.size()
