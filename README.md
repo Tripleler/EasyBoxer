@@ -8,7 +8,7 @@
 + EasyBoxer can remove file easy
 
 ## Note : EasyBoxer packaging by PyQt5 library
--> only works on your local computer. Not works on colab or kaggle notebook
+-> nly works on your local computer. Not works on colab or kaggle notebook
 
 ## Requirements
 + PyQt5
