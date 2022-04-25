@@ -17,7 +17,6 @@ from send2trash import send2trash
 
 def log(path='./logs', test=False):
     
-
     logs = logging.getLogger()
     logs.setLevel(logging.DEBUG)
 
