@@ -1,5 +1,5 @@
 # EasyBoxer : make label easy
-EasyBoxer : make label easy
+
 ## Introduce
 + Labeling image for yolov5 format
 + Just drag&drop to generate bounding box coordinate
