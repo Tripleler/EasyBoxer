@@ -1,4 +1,4 @@
-# EasyBoxer : make label easy
+# EasyBoxer : Make label easy
 
 ## Introduce
 + Labeling image for yolov5 format
