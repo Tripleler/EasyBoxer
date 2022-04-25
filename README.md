@@ -1,5 +1,7 @@
 # EasyBoxer : Make label easy
 
+[Python 데이터분석과 프로그래밍 (tistory.com)](https://tripleler.tistory.com)
+
 ## Introduce
 + Labeling image for yolov5 format
 + Just drag&drop to generate bounding box coordinate
